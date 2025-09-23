@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+html, body {
+    margin: 0;/* emaldab vaikimisi välisvahe (ümber elemendi) */
+    padding: 0;/* emaldab vaikimisi sisemise vahe (elemendi sees) */
+    font-family: sans-serif;/* määrab kirjatüübi - lihtne, ilma serifideta */
+    background-color: rgb(253, 253, 253);/* lehe taustavärv */
+    color: rgb(0, 0, 0); /* teksti värv */
+    line-height: 3.6;/* rea kõrgus: 1,6x fondi suurusest (parem loetavus) */
+}
+.card {
+max-width: 880px;   /* kaardi maks laius*/
+margin: 24px auto;  /* tsentreerib ploki*/
+background: #ffffff; /* tausta värv*/
+padding: 24px;  /* sisevahe servadest*/
+border-radius: 16px; /*ümardatud nurgad*/
+box-shadow: 0 6px 28px rgba(2,6,23,0.08);/* pehme vari*/
+}
+h1 {
+    margin-top: 0; /*eemaldab ülemise tühiku*/
+    font-size: 2rem; /*suur pealkiri*/
+}
+h2 {
+    margin-top: 1,5rem;/* eemaldab ülemise tühiku*/
+    font-size:  1,25rem;/* suur pealkiri*/
+}
+p.note{
+    color: blue;
+    font-size: 0.95rem;
+}
+.img{
+    display: block; /* muudab pildi plokkelemindiks*/
+    max-width: 100%; /* ei lähe konteineri piiridest välja*/
+    width: 560px; /* põhilaius laiematel ekraanidel*/
+    height: auto; /* säilitab pildi proportsioonid*/
+    border-radius: 12px; /* ümardab nurgad - pehmem visuaal*/
+    margin-top: 4px; /* vertikaalne vahe üleval*/
+}
+.caption {
+    color: rgb(24, 24, 170);
+    font-size: 0.95rem;
+    margin-top: 4px;
+}
