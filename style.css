@@ -40,3 +40,71 @@ p.note{
     font-size: 0.95rem;
     margin-top: 4px;
 }
+ul {
+    padding-left:  20px;
+}
+.nice-table{
+    width:100%;
+    border-collapse: collapse ;
+    margin-top: 8px;
+    font-size: 0.98rem;
+    }
+.nice-table th,
+.nice-table{
+    padding: 10px  12px;
+    border: 1px solid salmon;
+    text-align:left;
+}
+.nice-table thead th{
+    background: cadetblue;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(220, 156, 176);
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: apacity 0.2s;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+form{
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+    max-width: 520px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 10px;
+    background: black;
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.95;
+}
+.back-link{
+    display: inline-block;
+    margin-top: 16px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+.back-link:hover{
+    text-decoration: underline;
+}
+.img2{
+    display: block; /* muudab pildi plokkelemindiks*/
+    max-width: 100%; /* ei lähe konteineri piiridest välja*/
+    width: 560px; /* põhilaius laiematel ekraanidel*/
+    height: auto; /* säilitab pildi proportsioonid*/
+    border-radius: 12px; /* ümardab nurgad - pehmem visuaal*/
+    margin-top: 4px; /* vertikaalne vahe üleval*/
+}
